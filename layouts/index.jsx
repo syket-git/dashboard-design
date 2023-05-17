@@ -1,10 +1,7 @@
-import RightSideBar from '@/components/Sidebar/RightSideBar';
-import Header from '@/components/Header';
-import LeftSidebar from '@/components/Sidebar/LeftSidebar';
-import Activities from '@/components/Sidebar/RightSideBar/Activities';
-import Suggestions from '@/components/Sidebar/RightSideBar/Suggestions';
-import IncomeTax from '@/components/Sidebar/RightSideBar/IncomeTax';
 import { useState } from 'react';
+import RightSideBar from './Sidebar/RightSideBar';
+import LeftSidebar from './Sidebar/LeftSidebar';
+import Header from './Header';
 
 const Layout = ({ children }) => {
   const [collapse, setCollapse] = useState(false);

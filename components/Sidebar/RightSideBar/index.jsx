@@ -1,13 +1,21 @@
 import React from 'react';
+import Activities from './Activities';
+import Suggestions from './Suggestions';
+import IncomeTax from './IncomeTax';
 
 const RightSideBar = () => {
   return (
-    <div className="p-4 h-full">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto voluptas
-      consequatur dolores qui, maxime velit maiores odit, non natus nam
-      assumenda alias dicta laboriosam sequi voluptate tenetur? Dolore,
-      voluptatum animi?
-    </div>
+    <aside
+      id="logo-sidebar"
+      className={`z-40 w-64 h-screen pt-20  bg-white border-r border-gray-200  dark:bg-gray-800 dark:border-gray-700`}
+      aria-label="Sidebar"
+    >
+      <div className="h-full px-3 pb-4 space-y-4 overflow-y-auto bg-white dark:bg-gray-800">
+        <Activities />
+        <Suggestions />
+        <IncomeTax />
+      </div>
+    </aside>
   );
 };
 

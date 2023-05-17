@@ -5,25 +5,25 @@ import { HiOutlineMenuAlt2 } from 'react-icons/hi';
 
 const Header = ({ collapse, setCollapse }) => {
   return (
-    <nav class="fixed top-0 z-50 w-full bg-white border-b border-gray-200 dark:bg-gray-800 dark:border-gray-700">
-      <div class="px-3 py-3 lg:px-5 lg:pl-3">
-        <div class="flex items-center justify-between">
-          <div class="flex items-center justify-start">
+    <nav className="fixed top-0 z-50 w-full bg-white border-b border-gray-200 dark:bg-gray-800 dark:border-gray-700">
+      <div className="px-3 py-3 lg:px-5 lg:pl-3">
+        <div className="flex items-center justify-between">
+          <div className="flex items-center justify-start">
             <button
               onClick={() => setCollapse(!collapse)}
               type="button"
-              class="inline-flex items-center p-2 mt-2 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none dark:text-gray-400 dark:hover:bg-gray-700 "
+              className="inline-flex items-center p-2 mt-2 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none dark:text-gray-400 dark:hover:bg-gray-700 "
             >
               <HiOutlineMenuAlt2 size={25} />
             </button>
-            <Link href="/" class="flex ml-2 md:mr-24">
-              <span class="self-center text-lg font-semibold sm:text-2xl whitespace-nowrap dark:text-white">
+            <Link href="/" className="flex ml-2 md:mr-24">
+              <span className="self-center text-lg font-semibold sm:text-2xl whitespace-nowrap dark:text-white">
                 Finanion
               </span>
             </Link>
           </div>
-          <div class="flex items-center">
-            <div class="flex items-center ml-3">
+          <div className="flex items-center">
+            <div className="flex items-center ml-3">
               <div className="flex items-center gap-x-3">
                 <div className="sm:block hidden text-center mr-5">
                   <h4 className="text-base font-medium">Welcome! 🎉</h4>
@@ -31,7 +31,7 @@ const Header = ({ collapse, setCollapse }) => {
                 </div>
                 <button
                   type="button"
-                  class="flex space-x-2 items-center text-sm px-3 sm:px-5 py-2 text-gray-900 rounded-full dark:text-white bg-gray-100 dark:hover:bg-gray-700"
+                  className="flex space-x-2 items-center text-sm px-3 sm:px-5 py-2 text-gray-900 rounded-full dark:text-white bg-gray-100 dark:hover:bg-gray-700"
                   aria-expanded="false"
                   data-dropdown-toggle="dropdown-user"
                 >
@@ -39,7 +39,7 @@ const Header = ({ collapse, setCollapse }) => {
                 </button>
                 <button
                   type="button"
-                  class="flex space-x-2 items-center p-2 text-gray-900 rounded-full dark:text-white bg-gray-100 dark:hover:bg-gray-700"
+                  className="flex space-x-2 items-center p-2 text-gray-900 rounded-full dark:text-white bg-gray-100 dark:hover:bg-gray-700"
                   aria-expanded="false"
                   data-dropdown-toggle="dropdown-user"
                 >
@@ -48,13 +48,13 @@ const Header = ({ collapse, setCollapse }) => {
 
                 <button
                   type="button"
-                  class="flex text-sm bg-gray-800 rounded-full focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
+                  className="flex text-sm bg-gray-800 rounded-full focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
                   aria-expanded="false"
                   data-dropdown-toggle="dropdown-user"
                 >
                   <img
-                    class="w-8 h-8 rounded-full"
-                    src="https://flowbite.com/docs/images/people/profile-picture-5.jpg"
+                    className="w-8 h-8 rounded-full"
+                    src="https://www.seiu1000.org/sites/main/files/main-images/camera_lense_0.jpeg"
                     alt="user photo"
                   />
                 </button>

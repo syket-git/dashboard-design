@@ -15,8 +15,10 @@ const IncomeTax = () => {
     );
   };
   return (
-    <div>
-      <h4 className="text-lg border-b pb-1 mb-3 font-medium">Income Tax</h4>
+    <div className="bg-white lg:p-0 p-5">
+      <h4 className="text-lg lg:border-b pb-1 lg:mb-3 font-medium">
+        Income Tax
+      </h4>
       <div className="space-y-2">
         <IncomeTaxCard />
         <IncomeTaxCard />

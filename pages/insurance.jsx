@@ -2,7 +2,7 @@ import React from 'react';
 
 const Insurance = () => {
   return (
-    <div className="p-5">
+    <div className="h-full p-5 overflow-auto">
       <h4 className="text-xl font-medium mb-3">Insurance</h4>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nulla ut a

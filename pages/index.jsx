@@ -1,29 +1,9 @@
-import Head from 'next/head';
-import RecentOrders from '../components/RecentOrders';
+import DashboardPage from '@/components/Dashboard';
 
 export default function Home() {
   return (
-    <>
-      <Head>
-        <title>Finanion Dashboard</title>
-        <meta
-          name="description"
-          content="This is sample dashboard design for Finanion"
-        />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <main className="bg-gray-100 h-full overflow-auto">
-        <div className="p-4 grid md:grid-cols-3 grid-cols-1 gap-4">
-          <RecentOrders />
-          <RecentOrders />
-          <RecentOrders />
-          <RecentOrders />
-          <RecentOrders />
-          <RecentOrders />
-          <RecentOrders />
-        </div>
-      </main>
-    </>
+    <main className="h-full p-5 overflow-auto">
+      <DashboardPage />
+    </main>
   );
 }

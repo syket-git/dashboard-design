@@ -13,19 +13,19 @@ export const sidebarData = [
   {
     id: 2,
     name: 'Insurance',
-    url: '/customers',
+    url: '/insurance',
     icon: <BiDonateHeart size={22} />,
   },
   {
     id: 3,
     name: 'Loan',
-    url: '/',
+    url: '/loan',
     icon: <GiTakeMyMoney size={22} />,
   },
   {
     id: 4,
     name: 'Reports',
-    url: '/orders',
+    url: '/reports',
     icon: <TbFileSpreadsheet size={22} />,
   },
 ];

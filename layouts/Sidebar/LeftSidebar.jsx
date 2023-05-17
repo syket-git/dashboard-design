@@ -23,7 +23,7 @@ const LeftSidebar = ({ collapse, setCollapse }) => {
         </div>
         <ul className="space-y-2 font-medium">
           {sidebarData?.map((item) => (
-            <li>
+            <li key={item?.id}>
               <Link
                 href={item.url}
                 onClick={() => setCollapse(false)}
